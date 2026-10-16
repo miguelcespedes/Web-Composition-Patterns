@@ -64,6 +64,7 @@ navigationPromise.then(renderSidebar).catch((error) => console.error('[catalog:n
 let filterButtons = [];
 let searchTerms = new URLSearchParams(window.location.search).get('q')?.split(',').map((term) => term.trim()).filter(Boolean) || [];
 let activeCategory = new URLSearchParams(window.location.search).get('ctg') || 'all';
+let activePatternId = new URLSearchParams(window.location.search).get('id') || '';
 
 function filterLabel(tag) {
   return tag.split('-').map((part) => part[0].toUpperCase() + part.slice(1)).join(' ');
@@ -136,6 +137,8 @@ function syncSearchUrl() {
   else url.searchParams.delete('q');
   if (activeCategory !== 'all') url.searchParams.set('ctg', activeCategory);
   else url.searchParams.delete('ctg');
+  if (activePatternId) url.searchParams.set('id', activePatternId);
+  else url.searchParams.delete('id');
   window.history.replaceState({}, '', `${url.pathname}${url.search}`);
 }
 
@@ -275,6 +278,11 @@ Promise.all([patternsPromise, navigationPromise]).then(([patterns, sections]) =>
   renderFilters(patterns);
   renderSearchChips();
   applyPatternFilters();
+  const deepLinkedTrigger = patternTriggers.find((trigger) => trigger.dataset.patternId === activePatternId);
+  if (deepLinkedTrigger) {
+    currentPatternIndex = patternTriggers.indexOf(deepLinkedTrigger);
+    openPattern(deepLinkedTrigger);
+  }
 }).catch((error) => {
   console.error('[catalog:search] patterns failed to load', error);
   searchTrace('patterns unavailable; card text fallback will be used');
@@ -284,6 +292,8 @@ Promise.all([patternsPromise, navigationPromise]).then(([patterns, sections]) =>
 function closeModal() {
   clearHotRegion();
   modal.hidden = true;
+  activePatternId = '';
+  syncSearchUrl();
   document.body.style.overflow = '';
   modalSvg.replaceChildren();
   lastTrigger?.focus();
@@ -374,6 +384,8 @@ async function openPattern(trigger) {
     const pattern = patternsById.get(trigger.dataset.patternId);
     if (!pattern) return;
     lastTrigger = trigger;
+    activePatternId = pattern.id;
+    syncSearchUrl();
     modalTitle.textContent = pattern.name;
     modalDescription.textContent = pattern.descriptionEs;
     modal.hidden = false;
@@ -389,13 +401,6 @@ async function openPattern(trigger) {
     modalSvg.querySelectorAll('title, desc').forEach((element) => element.remove());
     bindSvgRegions(pattern);
 }
-
-patternTriggers.forEach((trigger, index) => {
-  trigger.addEventListener('click', () => {
-    currentPatternIndex = index;
-    openPattern(trigger);
-  });
-});
 
 navButtons.forEach((button) => {
   button.addEventListener('click', () => {

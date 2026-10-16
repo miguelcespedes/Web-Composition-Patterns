@@ -157,6 +157,7 @@ La semántica se mantiene deliberadamente a nivel de composición. Por ejemplo, 
 - Toda la card usa cursor `pointer`.
 - El click en la miniatura abre el modal.
 - El modal permite navegación con flechas y teclado.
+- Cada patrón tiene una URL compartible con el parámetro `id`, por ejemplo `?ctg=heroes&id=hero-video`.
 - `Interactive view` activa tooltips y resaltado semántico.
 - La leyenda se adapta al layout abierto.
 - Se respeta `prefers-reduced-motion`.

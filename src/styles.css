@@ -16,7 +16,8 @@ main { display: flex; min-height: 0; flex: 1; flex-direction: column; }
 .portal-header { display: flex; align-items: center; justify-content: space-between; min-height: var(--header-height); padding: var(--space-4) 10px; background: var(--surface-navigation); }
 .portal-heading { display: grid; gap: 4px; }
 .portal-heading .eyebrow { margin: 0; }
-.portal-brand { color: var(--text-on-dark); font-size: clamp(18px, 2vw, 24px); font-weight: var(--font-weight-bold); letter-spacing: -.055em; }
+.portal-brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text-on-dark); font-size: clamp(18px, 2vw, 24px); font-weight: var(--font-weight-bold); letter-spacing: -.055em; }
+.portal-brand-mark { width: 34px; height: 34px; flex: 0 0 auto; }
 .portal-brand em { color: var(--text-on-navigation-soft); font-style: normal; font-weight: var(--font-weight-regular); }
 .github-link { display: grid; width: 40px; height: 40px; place-items: center; border-radius: 50%; color: var(--text-on-dark); transition: background var(--motion-fast), color var(--motion-fast); }
 .github-link svg { width: 22px; height: 22px; fill: currentColor; }

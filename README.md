@@ -14,6 +14,8 @@ Abre `http://localhost:4173/`.
 
 El servidor local solo sirve archivos estáticos y proporciona hot reload. El mismo proyecto puede publicarse directamente en GitHub Pages.
 
+Sitio publicado: https://miguelcespedes.github.io/Web-Composition-Patterns/
+
 ## Estructura
 
 ```text

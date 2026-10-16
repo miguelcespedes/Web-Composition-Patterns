@@ -1,0 +1,19 @@
+<svg id="layout-split-hero" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" data-uid="2a0f8d4c-6e23-4aa8-9e92-5e1c7b3f4402" role="img" aria-labelledby="title desc">
+  <title id="title">Split Hero Composition</title><desc id="desc">A landing page composition with a text column and visual column in the hero.</desc>
+  <defs><pattern id="canvas-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#e5e5e5" stroke-width="1"/></pattern><pattern id="canvas-grid-focus" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#cfcfcf" stroke-width="1"/></pattern></defs>
+  <rect id="canvas" width="1000" height="700" fill="url(#canvas-grid)" data-role="canvas" data-region-id="canvas"/>
+  <rect id="canvas-boundary" x="5" y="5" width="990" height="690" fill="none" stroke="#D6D6D6" stroke-width="1" stroke-dasharray="2 8"/>
+  <rect id="shell-navigation" x="35" y="28" width="930" height="52" rx="2" fill="#e7ecef" stroke="#aeb9c0" stroke-width="2" data-role="shell" data-region-id="shell-navigation"/>
+  <text id="label-shell-navigation" x="500" y="61" fill="#171615" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" data-role="shell" data-region-id="shell-navigation">SHELL / NAVIGATION</text>
+  <rect id="message" x="80" y="130" width="390" height="245" rx="4" fill="#9dd9ff" stroke="#5fa7d5" stroke-width="2" data-role="hero" data-region-id="message"/>
+  <text id="label-message" x="275" y="213" fill="#241b2f" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" data-role="hero" data-region-id="message">MESSAGE</text>
+  <text id="label-message-detail" x="275" y="246" fill="#52604f" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" data-role="hero" data-region-id="message">Headline + details</text>
+  <rect id="action-cta" x="190" y="290" width="170" height="40" rx="20" fill="#171615" data-role="action" data-region-id="action-cta"/>
+  <text id="label-action-cta" x="275" y="316" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" data-role="action" data-region-id="action-cta">PRIMARY CTA</text>
+  <rect id="media-visual" x="515" y="130" width="405" height="245" rx="4" fill="#e1d5e7" stroke="#9673a6" stroke-width="2" data-role="media" data-region-id="media-visual"/>
+  <text id="label-media-visual" x="717" y="253" fill="#241b2f" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" data-role="media" data-region-id="media-visual">MEDIA / VISUAL</text>
+  <rect id="support-proof" x="80" y="425" width="840" height="110" rx="4" fill="#d9ead3" stroke="#82a878" stroke-width="2" data-role="support" data-region-id="support-proof"/>
+  <text id="label-support-proof" x="500" y="490" fill="#171615" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" data-role="support" data-region-id="support-proof">SUPPORT / PROOF</text>
+  <rect id="shell-footer" x="35" y="590" width="930" height="52" rx="2" fill="#e7ecef" stroke="#aeb9c0" stroke-width="2" data-role="shell" data-region-id="shell-footer"/>
+  <text id="label-shell-footer" x="500" y="623" fill="#171615" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" data-role="shell" data-region-id="shell-footer">SHELL / FOOTER</text>
+</svg>

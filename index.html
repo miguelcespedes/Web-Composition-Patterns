@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explora patrones reutilizables de composición web: heroes, carruseles, landing pages y pricing." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#101828" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Web Composition Patterns Catalog" />
+    <meta property="og:description" content="Catálogo visual de patrones reutilizables para diseñar interfaces web." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Web Composition Patterns Catalog" />
+    <meta name="twitter:description" content="Explora patrones de composición web, heroes, carruseles y pricing." />
+    <title>Web Composition Patterns Catalog | Heroes, Carousels &amp; Pricing</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="src/tokens.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+          <header class="portal-header">
+            <div class="portal-heading">
+              <a class="portal-brand" href="index.html">Web Composition <em>Patterns.</em></a>
+            </div>
+            <a class="github-link" href="https://github.com/miguelcespedes/Web-Composition-Patterns.git" target="_blank" rel="noreferrer" aria-label="Open Web Composition Patterns on GitHub" title="Open repository on GitHub">
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.3 11.3 0 0 0-3.58 22.02c.57.1.78-.25.78-.55v-2.16c-3.18.69-3.85-1.34-3.85-1.34-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.67 1.25 3.32.96.1-.74.4-1.25.73-1.54-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.12 1.17a10.8 10.8 0 0 1 5.68 0c2.16-1.48 3.12-1.17 3.12-1.17.62 1.57.23 2.73.11 3.02.73.8 1.18 1.82 1.18 3.07 0 4.39-2.67 5.35-5.22 5.64.41.36.78 1.06.78 2.14v3.16c0 .3.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg>
+            </a>
+      </header>
+      <main>
+        <div class="portal-layout">
+          <aside class="portal-sidebar" aria-label="Pattern filters">
+            <div class="sidebar-filters" data-sidebar-filters>
+              <span>Filter by type</span>
+              <div class="filter-list" role="group" aria-label="Filter patterns by type" data-filter-list></div>
+            </div>
+          </aside>
+          <div class="portal-content">
+        <section class="catalog" aria-labelledby="catalog-title">
+              <div class="section-heading"><div><h1 id="catalog-title">Pattern Catalog</h1></div><p>Reusable web compositions</p></div>
+          <div class="catalog-controls" aria-label="Pattern browser controls">
+            <div class="toolbar-primary">
+              <label class="search-control" for="pattern-search">
+                <span>Search patterns</span>
+                <div class="search-combobox"><div class="search-chips" data-search-chips></div><input id="pattern-search" type="search" placeholder="Search by name or tag" autocomplete="off" /></div>
+              </label>
+              <label class="category-control" for="category-select"><span>Category</span><select id="category-select" data-category-select></select></label>
+            </div>
+          </div>
+          <div class="results-bar" aria-live="polite"><span data-result-count>31 patterns</span></div>
+          <div data-catalog-sections></div>
+          <p class="empty-state" data-empty-state hidden>No patterns match this search.</p>
+          <noscript><p class="empty-state">Este catálogo necesita JavaScript para cargar sus patrones, filtros y previews interactivos.</p></noscript>
+        </section>
+          </div>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>Web Composition Patterns Catalog</span>
+      </footer>
+    </div>
+    <div class="pattern-modal" data-modal hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close enlarged pattern" data-close-modal>×</button>
+        <button class="modal-nav modal-nav--prev" type="button" aria-label="Previous pattern" data-nav="prev">‹</button>
+        <button class="modal-nav modal-nav--next" type="button" aria-label="Next pattern" data-nav="next">›</button>
+        <p class="eyebrow">Pattern detail</p>
+        <div class="modal-titlebar">
+          <h2 id="modal-title">Pattern</h2>
+          <label class="switch modal-interactive-toggle"><input type="checkbox" checked data-modal-interactive /><span>Interactive view · all patterns</span></label>
+        </div>
+        <p class="modal-description"></p>
+        <div class="modal-preview">
+          <div class="modal-svg" data-modal-svg></div>
+          <div class="svg-tooltip" data-svg-tooltip hidden></div>
+        </div>
+        <div class="color-legend modal-legend" aria-label="Color notation" data-modal-legend></div>
+      </section>
+    </div>
+    <script src="src/app.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Web Composition Patterns Catalog",
+        "description": "Catálogo visual de patrones reutilizables de composición web.",
+        "inLanguage": "es",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Web Composition Patterns Catalog"
+        }
+      }
+    </script>
+  </body>
+</html>

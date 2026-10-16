@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Two Column</title><desc id="desc">A main content column paired with a narrower sidebar.</desc>
+  <rect width="1000" height="620" fill="#fbfaf7"/>
+  <rect x="50" y="70" width="600" height="460" rx="4" fill="#d9ead3" stroke="#82a878" stroke-width="2"/>
+  <text x="350" y="288" fill="#241b2f" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">MAIN CONTENT</text>
+  <text x="350" y="326" fill="#52604f" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Article · product · information</text>
+  <rect x="700" y="70" width="250" height="460" rx="4" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text x="825" y="288" fill="#241b2f" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">SIDEBAR</text>
+  <text x="825" y="326" fill="#635770" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">Filters · links · actions</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="layout-hero-asymmetric" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" data-uid="c3d4e5f6-7890-4abc-3def-456789abcdef" role="img" aria-labelledby="title desc">
+  <title id="title">Asymmetric Hero Composition</title><desc id="desc">A hero-only composition with an offset message and a large visual anchor.</desc>
+  <defs><pattern id="canvas-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#e5e5e5" stroke-width="1"/></pattern><pattern id="canvas-grid-focus" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#cfcfcf" stroke-width="1"/></pattern></defs>
+  <rect id="canvas" width="1000" height="700" fill="url(#canvas-grid)" data-role="canvas" data-region-id="canvas"/>
+  <rect id="canvas-boundary" x="5" y="5" width="990" height="690" fill="none" stroke="#D6D6D6" stroke-width="1" stroke-dasharray="2 8"/>
+  <rect id="hero-asymmetric" x="90" y="120" width="820" height="420" rx="6" fill="#9dd9ff" stroke="#5fa7d5" stroke-width="2" data-role="hero" data-region-id="hero-asymmetric"/>
+  <rect id="hero-asymmetric-visual" x="495" y="155" width="350" height="350" rx="175" fill="#d9ead3" data-role="hero" data-region-id="hero-asymmetric"/>
+  <text id="label-hero-asymmetric" x="285" y="255" fill="#241b2f" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle" data-role="hero" data-region-id="hero-asymmetric">HERO / ASYMMETRIC</text>
+  <text id="label-hero-asymmetric-detail" x="285" y="295" fill="#52604f" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" data-role="hero" data-region-id="hero-asymmetric">Offset message + visual anchor</text>
+  <rect id="hero-asymmetric-action" x="190" y="350" width="190" height="42" rx="21" fill="#171615" data-role="hero" data-region-id="hero-asymmetric"/>
+  <text id="hero-asymmetric-action-label" x="285" y="377" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" data-role="hero" data-region-id="hero-asymmetric">GET STARTED</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg id="layout-story-flow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" data-uid="73c4f90b-8a71-4d63-b2e4-91f6a5c80703" role="img" aria-labelledby="title desc">
+  <title id="title">Story Flow Composition</title><desc id="desc">A narrative landing page composition with sequential sections and a final call to action.</desc>
+  <defs><pattern id="canvas-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#e5e5e5" stroke-width="1"/></pattern><pattern id="canvas-grid-focus" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#cfcfcf" stroke-width="1"/></pattern></defs>
+  <rect id="canvas" width="1000" height="700" fill="url(#canvas-grid)" data-role="canvas" data-region-id="canvas"/>
+  <rect id="canvas-boundary" x="5" y="5" width="990" height="690" fill="none" stroke="#D6D6D6" stroke-width="1" stroke-dasharray="2 8"/>
+  <rect id="shell-navigation" x="35" y="28" width="930" height="52" rx="2" fill="#e7ecef" stroke="#aeb9c0" stroke-width="2" data-role="shell" data-region-id="shell-navigation"/>
+  <text id="label-shell-navigation" x="500" y="61" fill="#171615" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" data-role="shell" data-region-id="shell-navigation">SHELL / NAVIGATION</text>
+  <rect id="proposition" x="125" y="120" width="750" height="125" rx="4" fill="#9dd9ff" stroke="#5fa7d5" stroke-width="2" data-role="hero" data-region-id="proposition"/>
+  <text id="label-proposition" x="500" y="192" fill="#241b2f" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="middle" data-role="hero" data-region-id="proposition">1. PROPOSITION</text>
+  <rect id="proof" x="125" y="285" width="750" height="100" rx="4" fill="#d9ead3" stroke="#82a878" stroke-width="2" data-role="support" data-region-id="proof"/>
+  <text id="label-proof" x="500" y="344" fill="#171615" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" data-role="support" data-region-id="proof">2. SUPPORT / PROOF</text>
+  <rect id="media-detail" x="125" y="425" width="360" height="100" rx="4" fill="#e1d5e7" stroke="#9673a6" stroke-width="2" data-role="media" data-region-id="media-detail"/>
+  <text id="label-media-detail" x="305" y="484" fill="#171615" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" data-role="media" data-region-id="media-detail">3. MEDIA / DETAIL</text>
+  <rect id="benefits" x="515" y="425" width="360" height="100" rx="4" fill="#d9ead3" stroke="#82a878" stroke-width="2" data-role="support" data-region-id="benefits"/>
+  <text id="label-benefits" x="695" y="484" fill="#171615" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" data-role="support" data-region-id="benefits">4. BENEFITS</text>
+  <rect id="final-cta" x="350" y="575" width="300" height="54" rx="27" fill="#171615" data-role="action" data-region-id="final-cta"/>
+  <text id="label-final-cta" x="500" y="609" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" data-role="action" data-region-id="final-cta">ACTION / CTA</text>
+</svg>

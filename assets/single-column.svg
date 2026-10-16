@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="title desc">
+  <title id="title">Single Column</title><desc id="desc">A narrow centered content column with stacked sections.</desc>
+  <rect width="800" height="620" fill="#fbfaf7"/>
+  <rect x="155" y="35" width="490" height="550" rx="4" fill="#e8f4f8" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="400" y="76" fill="#172b4d" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">SINGLE COLUMN</text>
+  <rect x="220" y="120" width="360" height="70" rx="3" fill="#d9ead3" stroke="#82a878" stroke-width="2"/>
+  <text x="400" y="163" fill="#241b2f" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">INTRODUCTION</text>
+  <rect x="220" y="230" width="360" height="135" rx="3" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="400" y="307" fill="#241b2f" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">CONTENT</text>
+  <rect x="220" y="405" width="360" height="70" rx="3" fill="#f6d5d2" stroke="#d96b63" stroke-width="2"/>
+  <text x="400" y="448" fill="#241b2f" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">CTA / ACTION</text>
+</svg>

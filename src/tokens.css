@@ -1,0 +1,121 @@
+:root {
+  /* Primitive tokens */
+  --primitive-navy-900: #101828;
+  --primitive-navy-950: #0b1220;
+  --primitive-blue-50: #eff6ff;
+  --primitive-blue-100: #eaf1ff;
+  --primitive-blue-600: #2563eb;
+  --primitive-blue-700: #1d4ed8;
+  --primitive-slate-50: #f8fafc;
+  --primitive-slate-100: #f5f7fa;
+  --primitive-slate-200: #dce3ec;
+  --primitive-slate-400: #94a3b8;
+  --primitive-slate-500: #64748b;
+  --primitive-slate-700: #334155;
+  --primitive-slate-900: #172033;
+  --primitive-white: #ffffff;
+  --primitive-danger-600: #dc2626;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --border-width: 1px;
+  --focus-ring: 0 0 0 3px var(--primitive-blue-100), 0 0 0 5px var(--primitive-blue-600);
+  --motion-fast: 140ms ease;
+  --motion-normal: 200ms ease;
+
+  /* Semantic tokens */
+  --surface-canvas: var(--primitive-slate-100);
+  --surface-panel: var(--primitive-white);
+  --surface-raised: var(--primitive-white);
+  --surface-navigation: var(--primitive-navy-900);
+  --surface-sidebar: var(--primitive-navy-950);
+  --surface-hover: var(--primitive-slate-50);
+  --surface-selected: var(--primitive-blue-100);
+  --text-primary: var(--primitive-slate-900);
+  --text-secondary: var(--primitive-slate-500);
+  --text-tertiary: var(--primitive-slate-400);
+  --text-disabled: var(--primitive-slate-400);
+  --text-on-dark: var(--primitive-white);
+  --text-on-primary: var(--primitive-white);
+  --text-on-navigation-muted: #cbd5e1;
+  --text-on-navigation-soft: #c7d8f6;
+  --text-on-navigation-count: #9fb5d6;
+  --border-subtle: var(--primitive-slate-200);
+  --border-default: var(--primitive-slate-200);
+  --border-strong: var(--primitive-slate-400);
+  --border-interactive: var(--primitive-blue-600);
+  --border-focus: var(--primitive-blue-600);
+  --action-primary: var(--primitive-blue-600);
+  --action-primary-hover: var(--primitive-blue-700);
+  --action-primary-pressed: var(--primitive-navy-900);
+  --action-secondary: var(--primitive-white);
+  --action-disabled: var(--primitive-slate-200);
+  --state-hover: var(--primitive-slate-50);
+  --state-selected: var(--primitive-blue-100);
+  --state-focus: var(--primitive-blue-100);
+  --state-disabled: var(--primitive-slate-100);
+
+  /* Component tokens */
+  --header-height: 64px;
+  --sidebar-width: 240px;
+  --content-padding: clamp(24px, 3vw, 48px);
+  --card-gap: 20px;
+  --card-radius: var(--radius-lg);
+  --card-border: var(--border-default);
+  --card-hover-border: #a9c3f4;
+  --card-shadow: 0 4px 16px rgb(16 24 40 / 0.05);
+  --card-hover-shadow: 0 10px 24px rgb(16 24 40 / 0.10);
+  --control-height: 40px;
+  --control-radius: var(--radius-md);
+  --preview-canvas: #f1f5f9;
+  --preview-block: #cbd5e1;
+  --preview-block-emphasis: #94a3b8;
+  --preview-content: #ffffff;
+  --preview-media: #dbeafe;
+  --preview-border: #cbd5e1;
+  --preview-action: #2563eb;
+  --preview-grid: #e5e5e5;
+  --preview-shell: #e7ecef;
+  --preview-hero: #9dd9ff;
+  --preview-support: #d9ead3;
+  --preview-media: #e1d5e7;
+  --preview-action-dark: #171615;
+  --control-track: #e5e5e5;
+  --control-border: #999999;
+  --overlay-backdrop: rgb(0 0 0 / 0.7);
+  --feedback-danger: #e63946;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

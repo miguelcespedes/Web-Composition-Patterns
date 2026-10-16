@@ -1,0 +1,11 @@
+<svg id="layout-hero-minimal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" data-uid="a1b2c3d4-e5f6-4789-9012-3456789abcde" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal Hero Composition</title><desc id="desc">A focused hero-only composition with centered copy and a single action.</desc>
+  <defs><pattern id="canvas-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#e5e5e5" stroke-width="1"/></pattern><pattern id="canvas-grid-focus" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#cfcfcf" stroke-width="1"/></pattern></defs>
+  <rect id="canvas" width="1000" height="700" fill="url(#canvas-grid)" data-role="canvas" data-region-id="canvas"/>
+  <rect id="canvas-boundary" x="5" y="5" width="990" height="690" fill="none" stroke="#D6D6D6" stroke-width="1" stroke-dasharray="2 8"/>
+  <rect id="hero-minimal" x="170" y="130" width="660" height="390" rx="6" fill="#9dd9ff" stroke="#5fa7d5" stroke-width="2" data-role="hero" data-region-id="hero-minimal"/>
+  <text id="label-hero-minimal" x="500" y="270" fill="#241b2f" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" data-role="hero" data-region-id="hero-minimal">HERO / MINIMAL</text>
+  <text id="label-hero-minimal-detail" x="500" y="310" fill="#52604f" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" data-role="hero" data-region-id="hero-minimal">Focused promise + single action</text>
+  <rect id="hero-minimal-action" x="395" y="360" width="210" height="44" rx="22" fill="#171615" data-role="hero" data-region-id="hero-minimal"/>
+  <text id="hero-minimal-action-label" x="500" y="388" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" data-role="hero" data-region-id="hero-minimal">PRIMARY ACTION</text>
+</svg>

@@ -1,0 +1,373 @@
+[
+  {
+    "uid": "0f7d6f1e-5c5b-4ef7-8f7b-3a8e2d1d9c01",
+    "id": "landing-centered",
+    "name": "Centered Hero Composition",
+    "category": "Landing Pages",
+    "tags": ["hero", "full-page", "centered"],
+    "descriptionEs": "Concentra una campaña en una propuesta única y lleva al visitante directamente hacia el CTA.",
+    "svg": "assets/landing-centered.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [
+      { "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área transparente de trabajo. La trama de cuadros marca el viewport y mantiene el recorrido enfocado.", "color": "transparent", "shape": "canvas" },
+      { "id": "shell-navigation", "role": "shell", "labelEn": "SHELL / NAVIGATION", "explanationEs": "Ubica la marca y permite orientación sin competir con el objetivo comercial de la campaña.", "color": "#E7ECEF", "shape": "rectangle" },
+      { "id": "main-proposition", "role": "hero", "labelEn": "MAIN PROPOSITION", "explanationEs": "Explica qué se ofrece, para quién y por qué importa. Es el primer argumento de conversión.", "color": "#9DD9FF", "shape": "rectangle" },
+      { "id": "support-proof", "role": "support", "labelEn": "SUPPORT / PROOF", "explanationEs": "Reduce la incertidumbre con beneficios, evidencia o señales de confianza antes de pedir la acción.", "color": "#D9EAD3", "shape": "rectangle" },
+      { "id": "action-cta", "role": "action", "labelEn": "ACTION / CTA", "explanationEs": "Convierte el interés en el siguiente paso medible: contactar, registrarse, comprar o solicitar información.", "color": "#171615", "shape": "pill" }
+    ]
+  },
+  {
+    "uid": "2a0f8d4c-6e23-4aa8-9e92-5e1c7b3f4402",
+    "id": "landing-split",
+    "name": "Split Hero Composition",
+    "category": "Landing Pages",
+    "tags": ["hero", "full-page", "split", "media"],
+    "descriptionEs": "Combina argumento y evidencia visual para vender un servicio sin perder claridad ni contexto.",
+    "svg": "assets/landing-split.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [
+      { "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área transparente de trabajo que mantiene el recorrido enfocado en la campaña.", "color": "transparent", "shape": "canvas" },
+      { "id": "shell-navigation", "role": "shell", "labelEn": "SHELL / NAVIGATION", "explanationEs": "Da contexto de marca y orientación básica, pero conserva la atención en el servicio promocionado.", "color": "#E7ECEF", "shape": "rectangle" },
+      { "id": "message", "role": "hero", "labelEn": "MESSAGE", "explanationEs": "Presenta el argumento comercial y el beneficio principal desde el primer vistazo.", "color": "#9DD9FF", "shape": "rectangle" },
+      { "id": "media-visual", "role": "media", "labelEn": "MEDIA / VISUAL", "explanationEs": "Hace tangible el servicio mediante un producto, imagen, mockup o demostración.", "color": "#E1D5E7", "shape": "rectangle" },
+      { "id": "support-proof", "role": "support", "labelEn": "SUPPORT / PROOF", "explanationEs": "Conecta el mensaje con evidencia, beneficios o prueba social para facilitar la decisión.", "color": "#D9EAD3", "shape": "rectangle" },
+      { "id": "action-cta", "role": "action", "labelEn": "PRIMARY CTA", "explanationEs": "Define la conversión principal de la campaña y evita que el visitante tenga que adivinar qué hacer después.", "color": "#171615", "shape": "pill" }
+    ]
+  },
+  {
+    "uid": "73c4f90b-8a71-4d63-b2e4-91f6a5c80703",
+    "id": "landing-story",
+    "name": "Story Flow Composition",
+    "category": "Landing Pages",
+    "tags": ["full-page", "story", "narrative"],
+    "descriptionEs": "Construye confianza paso a paso antes de pedir la acción final de la campaña.",
+    "svg": "assets/landing-story.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [
+      { "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área transparente de trabajo que contiene un recorrido lineal sin mezclar varias campañas.", "color": "transparent", "shape": "canvas" },
+      { "id": "shell-navigation", "role": "shell", "labelEn": "SHELL / NAVIGATION", "explanationEs": "Introduce la marca y orienta el inicio del recorrido sin desviar la conversión.", "color": "#E7ECEF", "shape": "rectangle" },
+      { "id": "proposition", "role": "hero", "labelEn": "1. PROPOSITION", "explanationEs": "Primer paso narrativo: define qué se ofrece, para quién y por qué merece atención.", "color": "#9DD9FF", "shape": "rectangle" },
+      { "id": "proof", "role": "support", "labelEn": "2. SUPPORT / PROOF", "explanationEs": "Aporta confianza y responde a la duda natural que aparece después de conocer la propuesta.", "color": "#D9EAD3", "shape": "rectangle" },
+      { "id": "media-detail", "role": "media", "labelEn": "3. MEDIA / DETAIL", "explanationEs": "Permite visualizar el servicio y convertir una promesa abstracta en algo comprensible.", "color": "#E1D5E7", "shape": "rectangle" },
+      { "id": "benefits", "role": "support", "labelEn": "4. BENEFITS", "explanationEs": "Traduce la propuesta en resultados concretos para ayudar al visitante a justificar su decisión.", "color": "#D9EAD3", "shape": "rectangle" },
+      { "id": "final-cta", "role": "action", "labelEn": "FINAL CTA", "explanationEs": "Cierra el recorrido con una acción clara y medible alineada con el objetivo de la campaña.", "color": "#171615", "shape": "pill" }
+    ]
+  },
+  {
+    "uid": "a1b2c3d4-e5f6-4789-9012-3456789abcde",
+    "id": "hero-minimal",
+    "name": "Minimal Hero Composition",
+    "category": "Landing Pages",
+    "tags": ["hero", "minimal", "centered"],
+    "descriptionEs": "Concentra el hero en una propuesta breve y una única acción sin añadir secciones auxiliares.",
+    "svg": "assets/hero-minimal.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [
+      { "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área transparente de trabajo que delimita la composición del hero.", "color": "transparent", "shape": "canvas" },
+      { "id": "hero-minimal", "role": "hero", "labelEn": "HERO / MINIMAL", "explanationEs": "Hero autosuficiente que concentra la propuesta, el contexto mínimo y la acción principal en un solo bloque.", "color": "#9DD9FF", "shape": "rectangle" }
+    ]
+  },
+  {
+    "uid": "b2c3d4e5-f678-4901-2abc-3456789abcde",
+    "id": "hero-editorial",
+    "name": "Editorial Hero Composition",
+    "category": "Landing Pages",
+    "tags": ["hero", "editorial", "split"],
+    "descriptionEs": "Usa un mensaje editorial fuerte y un campo visual desplazado dentro del mismo hero.",
+    "svg": "assets/hero-editorial.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [
+      { "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área transparente de trabajo que delimita la composición del hero.", "color": "transparent", "shape": "canvas" },
+      { "id": "hero-editorial", "role": "hero", "labelEn": "HERO / EDITORIAL", "explanationEs": "Hero único que combina un argumento editorial y una referencia visual sin crear una sección independiente.", "color": "#9DD9FF", "shape": "rectangle" }
+    ]
+  },
+  {
+    "uid": "c3d4e5f6-7890-4abc-3def-456789abcdef",
+    "id": "hero-asymmetric",
+    "name": "Asymmetric Hero Composition",
+    "category": "Landing Pages",
+    "tags": ["hero", "asymmetric", "visual"],
+    "descriptionEs": "Desplaza el mensaje y el ancla visual dentro de un único hero para crear tensión compositiva.",
+    "svg": "assets/hero-asymmetric.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [
+      { "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área transparente de trabajo que delimita la composición del hero.", "color": "transparent", "shape": "canvas" },
+      { "id": "hero-asymmetric", "role": "hero", "labelEn": "HERO / ASYMMETRIC", "explanationEs": "Hero único que usa un mensaje desplazado y un ancla visual para crear jerarquía sin secciones adicionales.", "color": "#9DD9FF", "shape": "rectangle" }
+    ]
+  },
+  {
+    "uid": "d4e5f678-9012-4abc-def3-456789abcdef",
+    "id": "hero-fullbleed-image",
+    "name": "Full-Bleed Image Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "full-bleed", "image"],
+    "descriptionEs": "Coloca una imagen a sangre como protagonista del hero y superpone el mensaje de entrada.",
+    "svg": "assets/hero-fullbleed-image.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-fullbleed-image", "role": "hero", "labelEn": "HERO / FULL-BLEED IMAGE", "explanationEs": "Hero cuyo campo visual ocupa todo el bloque principal.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "e5f67890-12ab-4cde-f345-6789abcdef01",
+    "id": "hero-video",
+    "name": "Video Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "video", "media"],
+    "descriptionEs": "Organiza el primer impacto alrededor de un viewport de vídeo y una acción de reproducción.",
+    "svg": "assets/hero-video.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-video", "role": "hero", "labelEn": "HERO / VIDEO", "explanationEs": "Hero centrado en una pieza audiovisual como argumento principal.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "f6789012-3abc-4def-4567-89abcdef0123",
+    "id": "hero-product-showcase",
+    "name": "Product Showcase Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "product", "showcase"],
+    "descriptionEs": "Presenta el producto como el ancla visual principal del primer bloque.",
+    "svg": "assets/hero-product-showcase.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-product-showcase", "role": "hero", "labelEn": "HERO / PRODUCT SHOWCASE", "explanationEs": "Hero que hace tangible la propuesta mediante una representación del producto.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "67890123-4bcd-4ef5-6789-abcdef012345",
+    "id": "hero-form",
+    "name": "Form Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "form", "conversion"],
+    "descriptionEs": "Coloca el formulario de conversión dentro del primer bloque para reducir pasos.",
+    "svg": "assets/hero-form.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-form", "role": "hero", "labelEn": "HERO / FORM", "explanationEs": "Hero orientado a capturar el dato o registro directamente.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "78901234-5cde-4f67-89ab-cdef01234567",
+    "id": "hero-announcement",
+    "name": "Announcement Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "announcement", "launch"],
+    "descriptionEs": "Prioriza un lanzamiento, novedad o mensaje temporal sobre cualquier otra información.",
+    "svg": "assets/hero-announcement.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-announcement", "role": "hero", "labelEn": "HERO / ANNOUNCEMENT", "explanationEs": "Hero diseñado para comunicar una novedad o lanzamiento de forma inmediata.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "89012345-6def-4078-9abc-def012345678",
+    "id": "hero-social-proof",
+    "name": "Social Proof Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "social-proof", "trust"],
+    "descriptionEs": "Integra señales de confianza junto a la propuesta principal desde el primer bloque.",
+    "svg": "assets/hero-social-proof.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-social-proof", "role": "hero", "labelEn": "HERO / SOCIAL PROOF", "explanationEs": "Hero que acompaña la promesa con marcas, cifras o testimonios de confianza.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "90123456-7efa-4189-abcd-ef0123456789",
+    "id": "hero-pricing",
+    "name": "Pricing Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "pricing", "conversion"],
+    "descriptionEs": "Hace visible el precio o la elección de plan desde el inicio del recorrido.",
+    "svg": "assets/hero-pricing.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-pricing", "role": "hero", "labelEn": "HERO / PRICING", "explanationEs": "Hero orientado a una decisión de precio o plan.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "01234567-8abc-429a-bcde-f0123456789a",
+    "id": "hero-interactive",
+    "name": "Interactive Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "interactive", "product"],
+    "descriptionEs": "Usa una interacción o estado manipulable como demostración inmediata de la propuesta.",
+    "svg": "assets/hero-interactive.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-interactive", "role": "hero", "labelEn": "HERO / INTERACTIVE", "explanationEs": "Hero que convierte la interacción en parte del argumento principal.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "12345678-9bcd-43ef-8012-3456789abcde",
+    "id": "hero-dark-mode",
+    "name": "Dark Mode Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "dark-mode", "contrast"],
+    "descriptionEs": "Emplea un campo oscuro para concentrar el contraste y el foco de la propuesta.",
+    "svg": "assets/hero-dark-mode.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-dark-mode", "role": "hero", "labelEn": "HERO / DARK MODE", "explanationEs": "Hero que usa contraste oscuro como decisión compositiva central.", "color": "#171615", "shape": "rectangle" }]
+  },
+  {
+    "uid": "23456789-acde-4f01-9123-456789abcdef",
+    "id": "hero-typographic",
+    "name": "Typographic Hero",
+    "category": "Landing Pages",
+    "tags": ["hero", "typographic", "statement"],
+    "descriptionEs": "Convierte la tipografía de gran escala en el elemento visual principal del hero.",
+    "svg": "assets/hero-typographic.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "hero-typographic", "role": "hero", "labelEn": "HERO / TYPOGRAPHIC", "explanationEs": "Hero donde la escala y el ritmo tipográfico sostienen la propuesta.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "3456789a-bcde-4012-9345-6789abcdef01",
+    "id": "carousel-hero",
+    "name": "Hero Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "hero", "slides"],
+    "descriptionEs": "Rota distintas propuestas principales dentro del mismo espacio hero.",
+    "svg": "assets/carousel-hero.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-hero", "role": "hero", "labelEn": "HERO CAROUSEL", "explanationEs": "Carrusel que alterna la propuesta principal y sus estados.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "456789ab-cdef-4123-a567-89abcdef0123",
+    "id": "carousel-product",
+    "name": "Product Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "product", "commerce"],
+    "descriptionEs": "Permite recorrer varios productos o variantes en una única franja horizontal.",
+    "svg": "assets/carousel-product.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-product", "role": "media", "labelEn": "PRODUCT CAROUSEL", "explanationEs": "Carrusel de productos que prioriza la exploración visual y comparativa.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "56789abc-def0-4234-b678-9abcdef01234",
+    "id": "carousel-testimonial",
+    "name": "Testimonial Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "testimonial", "social-proof"],
+    "descriptionEs": "Alterna testimonios para concentrar señales de confianza en un espacio reducido.",
+    "svg": "assets/carousel-testimonial.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-testimonial", "role": "support", "labelEn": "TESTIMONIAL CAROUSEL", "explanationEs": "Carrusel de prueba social basado en testimonios rotativos.", "color": "#D9EAD3", "shape": "rectangle" }]
+  },
+  {
+    "uid": "6789abcd-ef01-4345-789a-bcdef0123456",
+    "id": "carousel-logo",
+    "name": "Logo Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "logo", "trust"],
+    "descriptionEs": "Presenta una secuencia de marcas asociadas, clientes o partners como señal de confianza.",
+    "svg": "assets/carousel-logo.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-logo", "role": "support", "labelEn": "LOGO CAROUSEL", "explanationEs": "Carrusel de marcas que refuerza confianza y contexto comercial.", "color": "#E7ECEF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "789abcde-f012-4456-89ab-cdef01234567",
+    "id": "carousel-gallery",
+    "name": "Gallery Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "gallery", "media"],
+    "descriptionEs": "Organiza una secuencia visual para recorrer imágenes o piezas de una galería.",
+    "svg": "assets/carousel-gallery.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-gallery", "role": "media", "labelEn": "GALLERY CAROUSEL", "explanationEs": "Carrusel centrado en explorar una colección visual.", "color": "#E1D5E7", "shape": "rectangle" }]
+  },
+  {
+    "uid": "89abcdef-0123-4567-9abc-def012345678",
+    "id": "carousel-card",
+    "name": "Card Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "card", "content"],
+    "descriptionEs": "Despliega una colección horizontal de tarjetas relacionadas.",
+    "svg": "assets/carousel-card.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-card", "role": "support", "labelEn": "CARD CAROUSEL", "explanationEs": "Carrusel de tarjetas para recorrer opciones o piezas relacionadas.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "9abcdef0-1234-4789-abcd-ef0123456789",
+    "id": "carousel-content",
+    "name": "Content Carousel",
+    "category": "Landing Pages",
+    "tags": ["carousel", "content", "editorial"],
+    "descriptionEs": "Alterna bloques editoriales o informativos dentro de una misma composición.",
+    "svg": "assets/carousel-content.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "carousel-content", "role": "support", "labelEn": "CONTENT CAROUSEL", "explanationEs": "Carrusel para recorrer contenido editorial o informativo relacionado.", "color": "#E7ECEF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "abcdef01-2345-4678-9abc-def012345678",
+    "id": "pricing-table",
+    "name": "Pricing Table",
+    "category": "Landing Pages",
+    "tags": ["pricing", "table", "plans"],
+    "descriptionEs": "Compara varios planes en una tabla estructurada de precios y beneficios.",
+    "svg": "assets/pricing-table.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "pricing-table", "role": "support", "labelEn": "PRICING TABLE", "explanationEs": "Tabla comparativa para evaluar planes y elegir una opción.", "color": "#E7ECEF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "bcdef012-3456-4789-abcd-ef0123456789",
+    "id": "pricing-plan-comparison",
+    "name": "Plan Comparison",
+    "category": "Landing Pages",
+    "tags": ["pricing", "comparison", "plans"],
+    "descriptionEs": "Hace visibles las diferencias entre planes para apoyar una decisión informada.",
+    "svg": "assets/pricing-plan-comparison.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "plan-comparison", "role": "support", "labelEn": "PLAN COMPARISON", "explanationEs": "Comparación directa de alcance, beneficios y límites por plan.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "cdef0123-4567-489a-bcde-f0123456789a",
+    "id": "pricing-tiered",
+    "name": "Tiered Pricing",
+    "category": "Landing Pages",
+    "tags": ["pricing", "tiers", "plans"],
+    "descriptionEs": "Organiza los planes como niveles progresivos de capacidad y precio.",
+    "svg": "assets/pricing-tiered.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "tiered-pricing", "role": "support", "labelEn": "TIERED PRICING", "explanationEs": "Escalera de planes que comunica crecimiento de capacidad.", "color": "#D9EAD3", "shape": "rectangle" }]
+  },
+  {
+    "uid": "def01234-5678-49ab-cdef-0123456789ab",
+    "id": "pricing-billing-toggle",
+    "name": "Monthly Annual Toggle",
+    "category": "Landing Pages",
+    "tags": ["pricing", "billing", "toggle"],
+    "descriptionEs": "Permite cambiar entre facturación mensual y anual dentro de la vista de precios.",
+    "svg": "assets/pricing-billing-toggle.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "billing-toggle", "role": "support", "labelEn": "MONTHLY / ANNUAL", "explanationEs": "Control que cambia el periodo de facturación mostrado.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "ef012345-6789-4abc-def0-123456789abc",
+    "id": "pricing-feature-comparison",
+    "name": "Feature Comparison",
+    "category": "Landing Pages",
+    "tags": ["pricing", "features", "comparison"],
+    "descriptionEs": "Compara la disponibilidad de funcionalidades entre distintos planes.",
+    "svg": "assets/pricing-feature-comparison.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "feature-comparison", "role": "support", "labelEn": "FEATURE COMPARISON", "explanationEs": "Matriz de funcionalidades disponible por plan.", "color": "#E7ECEF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "f0123456-789a-4bcd-ef01-23456789abcd",
+    "id": "pricing-recommended-plan",
+    "name": "Recommended Plan",
+    "category": "Landing Pages",
+    "tags": ["pricing", "recommended", "conversion"],
+    "descriptionEs": "Destaca un plan recomendado sin ocultar las alternativas disponibles.",
+    "svg": "assets/pricing-recommended-plan.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "recommended-plan", "role": "support", "labelEn": "RECOMMENDED PLAN", "explanationEs": "Plan visualmente priorizado para orientar la decisión.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "01234567-89ab-4cde-f012-3456789abcde",
+    "id": "pricing-usage-based",
+    "name": "Usage-Based Pricing",
+    "category": "Landing Pages",
+    "tags": ["pricing", "usage", "metered"],
+    "descriptionEs": "Relaciona el coste con el consumo, volumen o uso medido del producto.",
+    "svg": "assets/pricing-usage-based.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "usage-based", "role": "support", "labelEn": "USAGE-BASED PRICING", "explanationEs": "Modelo de precio conectado a una métrica de consumo.", "color": "#9DD9FF", "shape": "rectangle" }]
+  },
+  {
+    "uid": "12345678-9abc-4def-0123-456789abcdef",
+    "id": "pricing-cards",
+    "name": "Pricing Cards",
+    "category": "Landing Pages",
+    "tags": ["pricing", "cards", "plans"],
+    "descriptionEs": "Presenta cada plan como una tarjeta independiente para facilitar la elección.",
+    "svg": "assets/pricing-cards.svg",
+    "viewBox": "0 0 1000 700",
+    "regions": [{ "id": "canvas", "role": "canvas", "labelEn": "Canvas / body", "explanationEs": "Área de trabajo del patrón.", "color": "transparent", "shape": "canvas" }, { "id": "pricing-cards", "role": "support", "labelEn": "PRICING CARDS", "explanationEs": "Conjunto de tarjetas que separa visualmente las opciones de precio.", "color": "#9DD9FF", "shape": "rectangle" }]
+  }
+]

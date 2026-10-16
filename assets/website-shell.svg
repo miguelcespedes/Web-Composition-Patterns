@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 760" role="img" aria-labelledby="title desc">
+  <title id="title">Website Shell</title><desc id="desc">A full-width header and footer with a centered hero and content column.</desc>
+  <rect width="1360" height="760" fill="#fbfaf7"/>
+  <rect x="20" y="20" width="1320" height="72" rx="2" fill="#f6d5d2" stroke="#d96b63" stroke-width="2"/>
+  <text x="680" y="63" fill="#241b2f" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">HEADER</text>
+  <rect x="175" y="140" width="1010" height="205" rx="2" fill="#d9ead3" stroke="#82a878" stroke-width="2"/>
+  <text x="680" y="232" fill="#241b2f" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">HERO</text>
+  <text x="680" y="267" fill="#52604f" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Primary proposition + CTA</text>
+  <rect x="175" y="392" width="1010" height="235" rx="2" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="680" y="500" fill="#241b2f" font-family="Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle">CONTENT</text>
+  <text x="680" y="535" fill="#70644a" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">Portfolio · pricing · information</text>
+  <rect x="20" y="668" width="1320" height="72" rx="2" fill="#e1d5e7" stroke="#9673a6" stroke-width="2"/>
+  <text x="680" y="711" fill="#241b2f" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">FOOTER</text>
+</svg>

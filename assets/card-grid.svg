@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Card Grid</title><desc id="desc">Three repeated cards arranged in a responsive grid.</desc>
+  <rect width="1000" height="620" fill="#fbfaf7"/>
+  <rect x="50" y="45" width="900" height="75" rx="4" fill="#e8f4f8" stroke="#6c8ebf" stroke-width="2"/>
+  <text x="500" y="91" fill="#172b4d" font-family="Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">TITLE + CONTEXT</text>
+  <rect x="50" y="170" width="280" height="250" rx="4" fill="#f6d5d2" stroke="#d96b63" stroke-width="2"/>
+  <rect x="360" y="170" width="280" height="250" rx="4" fill="#d9ead3" stroke="#82a878" stroke-width="2"/>
+  <rect x="670" y="170" width="280" height="250" rx="4" fill="#fff2cc" stroke="#d6b656" stroke-width="2"/>
+  <text x="190" y="305" fill="#241b2f" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">CARD 01</text>
+  <text x="500" y="305" fill="#241b2f" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">CARD 02</text>
+  <text x="810" y="305" fill="#241b2f" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">CARD 03</text>
+  <rect x="350" y="485" width="300" height="65" rx="32" fill="#241b2f"/>
+  <text x="500" y="526" fill="#d8f56d" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">CTA</text>
+</svg>

@@ -1,0 +1,6 @@
+[
+  { "label": "Landing Pages", "href": "?ctg=landing-pages", "file": "index.html", "sectionId": "landing-pages", "description": "One-page compositions", "patternIds": ["landing-centered", "landing-split", "landing-story"] },
+  { "label": "Heroes", "href": "?ctg=heroes", "file": "index.html", "sectionId": "heroes", "description": "Hero compositions", "patternIds": ["hero-minimal", "hero-editorial", "hero-asymmetric", "hero-fullbleed-image", "hero-video", "hero-product-showcase", "hero-form", "hero-announcement", "hero-social-proof", "hero-pricing", "hero-interactive", "hero-dark-mode", "hero-typographic"] },
+  { "label": "Carousels", "href": "?ctg=carousels", "file": "index.html", "sectionId": "carousels", "description": "Carousel compositions", "patternIds": ["carousel-hero", "carousel-product", "carousel-testimonial", "carousel-logo", "carousel-gallery", "carousel-card", "carousel-content"] },
+  { "label": "Pricing", "href": "?ctg=pricing", "file": "index.html", "sectionId": "pricing", "description": "Plan and pricing compositions", "patternIds": ["pricing-table", "pricing-plan-comparison", "pricing-tiered", "pricing-billing-toggle", "pricing-feature-comparison", "pricing-recommended-plan", "pricing-usage-based", "pricing-cards"] }
+]

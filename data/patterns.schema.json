@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/web-composition-patterns.schema.json",
+  "title": "Web Composition Patterns Catalog",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "$ref": "pattern.schema.json"
+  },
+  "uniqueItems": true
+}

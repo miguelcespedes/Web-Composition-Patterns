@@ -1,0 +1,9 @@
+{
+  "name": "web-layout-patterns-catalog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A visual catalog of reusable web composition patterns.",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
